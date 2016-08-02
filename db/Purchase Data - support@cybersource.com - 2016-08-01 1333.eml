@@ -1,0 +1,163 @@
+Delivered-To: service@takevoucher.com
+Received: by 10.25.159.202 with SMTP id i193csp2460092lfe;
+        Sun, 31 Jul 2016 23:33:10 -0700 (PDT)
+X-Received: by 10.176.1.84 with SMTP id 78mr24755000uak.72.1470033190882;
+        Sun, 31 Jul 2016 23:33:10 -0700 (PDT)
+Return-Path: <mail+caf_=service=takevoucher.com@takevoucher.com>
+Received: from mail-ua0-x230.google.com (mail-ua0-x230.google.com. [2607:f8b0:400c:c08::230])
+        by mx.google.com with ESMTPS id b12si7026349vka.65.2016.07.31.23.33.10
+        for <service@takevoucher.com>
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Sun, 31 Jul 2016 23:33:10 -0700 (PDT)
+Received-SPF: pass (google.com: domain of mail+caf_=service=takevoucher.com@takevoucher.com designates 2607:f8b0:400c:c08::230 as permitted sender) client-ip=2607:f8b0:400c:c08::230;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@cybersource.com;
+       spf=pass (google.com: domain of mail+caf_=service=takevoucher.com@takevoucher.com designates 2607:f8b0:400c:c08::230 as permitted sender) smtp.mailfrom=mail+caf_=service=takevoucher.com@takevoucher.com;
+       dmarc=pass (p=REJECT dis=NONE) header.from=cybersource.com
+Received: by mail-ua0-x230.google.com with SMTP id l32so99732192ual.2
+        for <service@takevoucher.com>; Sun, 31 Jul 2016 23:33:10 -0700 (PDT)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:delivered-to:dkim-signature:date:from:to
+         :message-id:subject:mime-version:content-transfer-encoding
+         :reference-number;
+        bh=CGKq0+zBywQ6skED7pNSH/BkWM0kndjTtPGyM4pcme0=;
+        b=ZoCVkS/i6AKoOwDGuufEB8cwu0oyRQYkg2T84h3Okev8RBLDp0j6AkB56UbxUXi70G
+         aoV9UJJnxLRHVxIDcd+yo+z2jA4/yzwJuOTyUr7BiXQJQydedOgnnaxKWbmIcrl3NS0M
+         l/m5BI89BgExSitzfSMy5Yq+9vUiyyUjkplCvVYTunVbYZJuREjDVXDfr9jRp6NWlwYn
+         EFzsjv1ABVFJeMIqIqGwyZnLku2rzMRVEK/0CpljHaTdLITSn/JQle0QkG7r+KYjY4EV
+         AM+SITniqprpEDgrtEBRHHOw5UC46zbT7ac7Ulyx/zcCaNcpZumIQR7axCFyn4zikEwW
+         PchA==
+X-Gm-Message-State: AEkooutRZI0UqBWnTfZfJVCYt/hjCKTpgdFvaRQc1pdxiYyBCOYY3dGhWuCXuNaBBUJcWkgXpiQ09J24Epek8CMCGJtF4qk=
+X-Received: by 10.159.40.72 with SMTP id c66mr25406724uac.48.1470033190440;
+        Sun, 31 Jul 2016 23:33:10 -0700 (PDT)
+X-Forwarded-To: service@takevoucher.com
+X-Forwarded-For: mail@takevoucher.com service@takevoucher.com
+Delivered-To: mail@takevoucher.com
+Received: by 10.103.44.145 with SMTP id s139csp2367313vss;
+        Sun, 31 Jul 2016 23:33:09 -0700 (PDT)
+X-Received: by 10.200.35.169 with SMTP id q38mr89003658qtq.4.1470033189261;
+        Sun, 31 Jul 2016 23:33:09 -0700 (PDT)
+Return-Path: <support@cybersource.com>
+Received: from cportal5.visa.com (cportal5.visa.com. [198.241.162.10])
+        by mx.google.com with ESMTPS id u123si7257285qkd.280.2016.07.31.23.33.09
+        for <mail@takevoucher.com>
+        (version=TLS1 cipher=AES128-SHA bits=128/128);
+        Sun, 31 Jul 2016 23:33:09 -0700 (PDT)
+Received-SPF: pass (google.com: domain of support@cybersource.com designates 198.241.162.10 as permitted sender) client-ip=198.241.162.10;
+DKIM-Signature: v=1; a=rsa-sha256; c=simple/simple;
+  d=cybersource.com; i=@cybersource.com; q=dns/txt;
+  s=cportal; t=1470033189; x=1501569189;
+  h=date:from:to:message-id:subject:mime-version:
+   content-transfer-encoding;
+  bh=CGKq0+zBywQ6skED7pNSH/BkWM0kndjTtPGyM4pcme0=;
+  b=ehJuMxfqD4jo60lgm0NyMyoXphQeqkeoGyTfQbQR+7yw1Jp9HYN65FmZ
+   faLkqUkPIvwFM4PJO3MW+BaOTBvowjksE5sh54Oych9mPAvgM0AJMW+oJ
+   wWsKDXCkekkUrSqhTzeYmIrublsnuqulp2IEcyEGyxXHfZuwrLjr4YeAS
+   I=;
+Date: Sun, 31 Jul 2016 23:33:08 -0700 (PDT)
+From: support@cybersource.com
+To: mail@takevoucher.com
+Message-ID: <1387302010.28436.1470033188978.JavaMail.was@sl73saapp012>
+Subject: Purchase Data
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Reference-Number: 10269
+
+auth_cv_result=3DM
+req_locale=3Den
+score_score_result=3D32
+decision_case_priority=3D3
+auth_trans_ref_no=3D4700331836176250602453
+payer_authentication_enroll_veres_enrolled=3DN
+req_bill_to_surname=3Ddanon
+payer_authentication_proof_xml=3D&lt;AuthProof&gt;&lt;Time&gt;2016 Aug 01 0=
+6:33:05&lt;/Time&gt;&lt;DSUrl&gt;https://dsec.visa3dsecure.com/DSMsgServlet=
+&lt;/DSUrl&gt;&lt;VEReqProof&gt;&lt;Message id=3D&quot;YFPIF5iJT7Uh6NA6O8i0=
+&quot;&gt;&lt;VEReq&gt;&lt;version&gt;1.0.2&lt;/version&gt;&lt;pan&gt;XXXXX=
+XXXXXXX2769&lt;/pan&gt;&lt;Merchant&gt;&lt;acqBIN&gt;433286&lt;/acqBIN&gt;&=
+lt;merID&gt;110000000000097&lt;/merID&gt;&lt;/Merchant&gt;&lt;Browser&gt;&l=
+t;deviceCategory&gt;0&lt;/deviceCategory&gt;&lt;accept&gt;*/*&lt;/accept&gt=
+;&lt;userAgent&gt;Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (K=
+HTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36&lt;/userAgent&gt;&lt;/=
+Browser&gt;&lt;/VEReq&gt;&lt;/Message&gt;&lt;/VEReqProof&gt;&lt;VEResProof&=
+gt;&lt;Message id=3D&quot;YFPIF5iJT7Uh6NA6O8i0&quot;&gt;&lt;VERes&gt;&lt;ve=
+rsion&gt;1.0.2&lt;/version&gt;&lt;CH&gt;&lt;enrolled&gt;N&lt;/enrolled&gt;&=
+lt;/CH&gt;&lt;/VERes&gt;&lt;/Message&gt;&lt;/VEResProof&gt;&lt;/AuthProof&g=
+t;
+req_card_expiry_date=3D07-2019
+score_rflag=3DSOK
+score_rcode=3D1
+auth_amount=3D11.85
+auth_response=3D00
+bill_trans_ref_no=3D4700331836176250602453
+req_payment_method=3Dcard
+auth_time=3D2016-08-01T063308Z
+decision_early_return_code=3D9999999
+payer_authentication_enroll_e_commerce_indicator=3Dvbv_attempted
+transaction_id=3D4700331836176250602453
+req_card_type=3D001
+auth_avs_code=3DG
+auth_code=3DB80135
+score_factors=3DA^D
+score_model_used=3Ddefault_cemea
+req_bill_to_address_country=3DBA
+auth_cv_result_raw=3DM
+decision_rmsg=3DService processed successfully
+req_profile_id=3DB145A13A-033C-41EF-9D31-90CFA849317C
+score_suspicious_info=3DRISK-TB
+decision_rcode=3D1
+score_rmsg=3Dscore service was successful
+decision_rflag=3DSOK
+signed_date_time=3D2016-08-01T06:33:08Z
+req_bill_to_address_line1=3Dnikole pa=C5=A1i=C4=87a 38
+req_card_number=3D419617xxxxxx2769
+signature=3DX+rmd7ACUv1fIqflLj+V8cdS+v+cewmjIJHHjhF0fcc=3D
+score_card_scheme=3DVISA DEBIT
+score_bin_country=3DBA
+req_bill_to_address_city=3Dbanja luka
+req_bill_to_address_postal_code=3D78000
+score_reason_code=3D100
+reason_code=3D100
+req_bill_to_forename=3Daleksandar
+request_token=3DAhj//wSR/Zxqaydh9QeqfFmjdgwZs2Lhm2Yt2zJqwbMGTRqzURr7UR8CAqI=
+19qI+B0gXKFhFhk0ky3SA8bVoMHcj+zjU1k7D6g9Ui1Cf
+score_card_account_type=3DELECTRON
+req_amount=3D11.85
+req_bill_to_email=3Daleksandardanon@yahoo.com
+payer_authentication_reason_code=3D100
+auth_avs_code_raw=3DG
+req_currency=3DUSD
+decision=3DACCEPT
+decision_return_code=3D1320000
+message=3DRequest was processed successfully.
+signed_field_names=3Dtransaction_id,decision,req_access_key,req_profile_id,=
+req_transaction_uuid,req_transaction_type,req_reference_number,req_amount,r=
+eq_currency,req_locale,req_payment_method,req_bill_to_forename,req_bill_to_=
+surname,req_bill_to_email,req_bill_to_address_line1,req_bill_to_address_cit=
+y,req_bill_to_address_country,req_bill_to_address_postal_code,req_card_numb=
+er,req_card_type,req_card_expiry_date,message,reason_code,auth_avs_code,aut=
+h_avs_code_raw,auth_response,auth_amount,auth_code,auth_cv_result,auth_cv_r=
+esult_raw,auth_trans_ref_no,auth_time,request_token,bill_trans_ref_no,payer=
+_authentication_proof_xml,payer_authentication_eci,payer_authentication_rea=
+son_code,payer_authentication_enroll_e_commerce_indicator,payer_authenticat=
+ion_enroll_veres_enrolled,score_factors,score_rcode,score_time_local,score_=
+model_used,score_return_code,score_host_severity,score_score_result,score_r=
+eason_code,score_rflag,score_rmsg,score_card_account_type,score_card_scheme=
+,score_internet_info,score_suspicious_info,decision_early_return_code,decis=
+ion_early_reason_code,decision_reason_code,decision_rmsg,decision_rcode,dec=
+ision_case_priority,decision_return_code,decision_early_rcode,decision_rfla=
+g,score_bin_country,signed_field_names,signed_date_time
+req_transaction_uuid=3D579eeced04e0f
+decision_reason_code=3D100
+payer_authentication_eci=3D06
+score_time_local=3D07:33:03
+score_return_code=3D1070000
+score_host_severity=3D1
+req_transaction_type=3Dsale
+req_access_key=3D293c42829eb2399b8b35a377aad45a98
+score_internet_info=3DFREE-EM
+decision_early_reason_code=3D100
+req_reference_number=3D10269
+decision_early_rcode=3D1
